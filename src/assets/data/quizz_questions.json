@@ -1,55 +1,65 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Você seria um programador ATUALIZADO ou um progrmador ANTIQUADO ?",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Qual linguagem voce escolheria ?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Basic", "alias":"A"},
+        {"id": 2, "name":"JavaScript", "alias":"B"},
+        {"id": 3, "name":"Fortran", "alias":"A"},
+        {"id": 4, "name":"TypeScript", "alias":"B"},
+        {"id": 5, "name":"Cobol", "alias":"A"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Qual FRAMEWORK você escolheria ?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"WebApp Nativo", "alias":"A"},
+        {"id": 2, "name":"React", "alias":"B"},
+        {"id": 3, "name":"Angular", "alias":"B"},
+        {"id": 4, "name":"PHP Puro", "alias":"A"},
+        {"id": 5, "name":"Vue", "alias":"B"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Qual a sua metodologia para desenvolvimento de Software voce escolheria?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"Modelo Agil Scrum", "alias":"B"},
+        {"id": 2, "name":"Modelo Cascata Clássico", "alias":"A"},
+        {"id": 3, "name":"Codificação Sob Demanda", "alias":"A"},
+        {"id": 4, "name":"Modelo Agil Extreme Programing", "alias":"B"},
+        {"id": 4, "name":"Modelo Interativo RUP", "alias":"B"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Qual o seu maior foco no Desenvolvimento de software que voce utilizaria?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"Foco em terminar quando estiver pronto", "alias":"A"},
+        {"id": 2, "name":"Foco em produzir valor para usuário final", "alias":"B"},
+        {"id": 3, "name":"Foco em custo de desenvolvimento", "alias":"A"},
+        {"id": 1, "name":"Foco em qualidade e performance do produto final", "alias":"B"},
+        {"id": 1, "name":"Foco em atender os requitos de negócio e possiveis evoluções", "alias":"B"}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Qual o seu perfil de trabalho como desenvolvedor ?",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"Sou desenvolvedor Ninja sem Mestre", "alias":"A"},
+        {"id": 2, "name":"Trabalho bem em equipe, focando em minha especialização", "alias":"B"},
+        {"id": 3, "name":"Gosto de codificar, não quero fazer outra atividade", "alias":"A"},
+        {"id": 4, "name":"Conheço bem a parte técnica, mas também desenvolvi soft skills", "alias":"B"},
+        {"id": 5, "name":"Aprendi bem uma linguagem e quero continuar programando com ela", "alias":"A"}
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "Você muito provavelmente esta se tornando um desenvolvedor ultrapassado, com poucas chances no mercado!",
+    "B": "Você muito provavelmente esta no caminho certo para ser um desenvolvedor PROFISSIONAL!",
+    "C": "Voce precisa melhorar se quiser chegar a ser um desenvolvedor TOP!"
   }
 }

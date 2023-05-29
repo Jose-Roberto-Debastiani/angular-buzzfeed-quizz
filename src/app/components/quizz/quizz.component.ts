@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import quizz_questions from "../../../assets/data/quizz_questions.json"
+import quizz_questions from '../../../assets/data/quizz_questions.json';
 
 @Component({
   selector: 'app-quizz',
@@ -22,6 +22,8 @@ export class QuizzComponent implements OnInit {
 
   finished:boolean = false
 
+  results:any;
+
   constructor() { }
 
   ngOnInit(): void {
@@ -35,8 +37,7 @@ export class QuizzComponent implements OnInit {
       this.questionIndex = 0
       this.questionMaxIndex = this.questions.length
 
-      console.log(this.questionIndex)
-      console.log(this.questionMaxIndex)
+      this.results = quizz_questions.results;
     }
 
   }
@@ -60,6 +61,22 @@ export class QuizzComponent implements OnInit {
   }
 
   async checkResult(anwsers:string[]){
+
+    let resultKeys = Object.getOwnPropertyNames(this.results);
+
+    if (resultKeys.length > 2) {
+      const partial = anwsers.reduce((previous, current, i, arr) => {
+        if (current === resultKeys[1]) {
+          return previous + 1;
+        } else {
+          return previous;
+        }
+      }, 0);
+
+      if (partial === 3) {
+        return resultKeys[2];
+      }
+    }
 
     const result = anwsers.reduce((previous, current, i, arr)=>{
         if(
